@@ -50,3 +50,16 @@ To add a dependancies in folders *client* or *server*
         <li>Let's go.
     </ul>
 </p>
+
+<p>
+    To execute the project, open the terminal and install packages in both client and server folders. Then use npm run start in the root folder
+    <code>  
+        cd client 
+        npm install
+        cd ..
+        cd server
+        npm install
+        cd ..
+        npm run start
+    </code>
+</p>
